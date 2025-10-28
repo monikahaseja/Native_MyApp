@@ -3,7 +3,7 @@ import { Text, View } from "react-native";
 import styles from './styles';
 
 const Title = () => {
-    const [stateText, setStateText] = useState('');
+    const [stateText, setStateText] = useState('Default State Text');
     console.log('UPDATE');
         
     const onTextPress = () => {
