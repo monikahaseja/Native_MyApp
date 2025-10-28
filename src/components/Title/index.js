@@ -4,7 +4,6 @@ import styles from './styles';
 
 const Title = () => {
     const [stateText, setStateText] = useState('Default State Text');
-    console.log('UPDATE');
         
     const onTextPress = () => {
         setStateText('Updated State')
